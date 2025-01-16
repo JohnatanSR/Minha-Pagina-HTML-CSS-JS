@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Inicial com barra lateral responsiva.">
+    <meta name="author" content="Seu Nome">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="/template_login/css/home.css">
+    <script src="/template_login/javascript/home.js"></script>
+</head>
+<body>
+    <div class="layout-container">
+        <nav class="sidebar" id="sidebar">
+            <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" aria-label="Toggle Sidebar">
+                <img src="/template_login/icons/listar_menu.svg" alt="Ícone de Menu" class="img_menu">
+            </button>
+            <h2>Menu</h2>
+            <ul class="menu-list">
+                <li><a id="home"><img src="/template_login/icons/house.svg" class="icon" alt="Home"> <span class="menu-text">Home</span></a></li>
+                <li><a id="user-menu"><img src="/template_login/icons/user.svg" class="icon" alt="Usuário"> <span class="menu-text">Usuário</span></a></li>
+                <li><a id="user_config"><img src="/template_login/icons/config.svg" class="icon" alt="Serviços"> <span class="menu-text">Serviços</span></a></li>
+                <li><a href="#"><img src="/template_login/icons/envelope.svg" class="icon" alt="Contato"> <span class="menu-text">Contato</span></a></li>
+            </ul>
+        </nav>
+        <div class="main-content" id="main-content">
+            <header>
+                <h1>Bem-vindo à Página Inicial</h1>
+            </header>
+            
+                <p>Conteúdo principal da página.</p>
+            </section>
+        </div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+    
+  </script>
+</body>
+</html>
