@@ -1,1 +1,1 @@
-Pagina simples em HTML
+Pagina simples
