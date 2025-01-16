@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/template_login/css/form_cadastro.css"> <!-- Certifique-se de que este caminho esteja correto -->
+    <script src="/template_login/javascript/form_cadastro.js"></script>
+</head>
+<body>
+    <div class="form_Login">
+        <div id="container">
+            <form action="#" method="POST">
+                <div>
+                    <h3>Dados de Login</h3>
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+                    <label for="confirma_email">Confirmar E-mail</label>
+                    <input type="email" id="confirma_email" name="confirma_email" placeholder="email@exemplo.com" required>
+                    
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha_pass" name="senha" placeholder="Senha" required> 
+                    <img class="olho_aberto" src="/template_login/icons/olho_aberto.svg" id="olho_senha" onclick="mostrar_ocultar()">
+                    <label for="confirma_senha">Confirmar Senha</label>
+                    <div class="input-wrapper">
+                    <input type="password" id="confirmar_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
+                    <img class="olho_aberto1" src="/template_login/icons/olho_aberto.svg" id="olho_senha1" onclick="mostrar_ocultar_r()">                
+                </div>  
+                <div>
+                    <h3>Dados de Pessoais</h3>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome" required>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" placeholder="(00) 00000-0000" required>
+                        <label for="data_nas">Data de Nascimento</label>
+                        <input type="date" id="data_nas" name="data_nas" required>
+                        <label for="rg">RG</label>
+                        <input type="text" id="rg" name="rg" placeholder="Seu RG" required>
+                        <label for="sexo">Sexo</label>
+                        <select id="sexo" name="sexo" required>
+                            <option value="">Escolha o sexo</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                        <label for="cep">CEP</label>
+                        <input type="text" id="campo_cep" name="cep" placeholder="00000-000" required>
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="campo_endereco" name="endereco" placeholder="Rua Exemplo" required>
+                        <label for="num_endereco">N°</label>
+                        <input type="text" name="num_endereco" placeholder="Número" required>
+                        <label for="bairro_endereco">Bairro</label>
+                        <input type="text" id="campo_bairro" name="bairro_endereco" placeholder="Bairro" required>
+                        <label for="complemento_endereco">Complemento</label>
+                        <input type="text" name="complemento_endereco" placeholder="Apto, bloco, etc." required>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="campo_cidade" name="cidade" placeholder="Cidade" required>
+                        <label for="estado">Estado</label>
+                        <select id="campo_estado" name="estado" required>
+                            <option value="">Escolha o Estado</option>
+                            <!-- Lista de estados aqui -->
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+                </div>
+                <button type="submit" class="bnt_ent"> Enviar</button>
+                <div class="link_1">
+                    <a href="#" id="possui_cadastro"> Já sou cadastrado</a>
+                </div>
+                
+        </div>
+    </form>
+    </div> 
+    
+</body>
+</html>

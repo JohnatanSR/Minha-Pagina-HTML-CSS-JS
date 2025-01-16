@@ -1,0 +1,130 @@
+body{
+    background-color: #b4b2b3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+#container{
+    display: flex;
+    position: absolute;
+    left: center;
+    top: center;
+    
+    
+}
+#main-content{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+
+#login_user{
+    background: #FFFFFF;
+    width: 398px;
+    height: 525px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.fonte{
+    font-family: "Poppins";
+}
+
+.text_mesage{
+    font-weight: 500;
+    font-size: 56px;;
+    text-align: center;
+    position: absolute;
+    width: 417px;
+    height: 373px;
+    left: 46px;
+    
+       
+}
+
+#login_user h1:first-child{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#login_user label { 
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;    
+}  
+
+#login_user input{
+    
+    margin: 2px;
+    font-family: "Poppins";
+    width: 320px;
+    height: 40px;
+    border: 1px solid #D5DAE1;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #D5DAE1;
+}
+#user_config2{
+    cursor: pointer;
+}
+
+.senha_input{
+    position: relative;
+}
+
+.olho_aberto {
+    cursor: pointer;
+    width:23px ;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.olho_fechado{
+    cursor: pointer;
+    width:23px ;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.bnt_enviar{
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    background: #22C55E;
+    font-family: "Poppins";
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+#login_user a {
+    color: #007BFF; 
+    text-decoration: none; 
+}

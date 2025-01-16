@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="/template_login/css/login.css">
+</head>
+<body>
+    <div id="container">
+        <form action="#" method="post" id="login_form">
+            <div id="login_user">
+                <h1>LOGIN</h1>
+                <div>
+                    <label for="username">E-mail</label> <br />
+                    <input type="text" id="username" name="username" placeholder="email@gmail.com" required>
+                </div>
+                <div class="senha_input">
+                    <label for="password">Confirme a senha</label> <br />
+                    <input type="password" id="senha_pass" name="password" placeholder="Senha" required>
+                    <img class="olho_aberto" src="/template_login/icons/olho_aberto.svg" id="olho_senha" onclick="mostrar_ocultar()">
+                </div>
+                <button class="bnt_enviar" type="submit"> Entrar </button>
+                <div class="link_1">
+                    <a href="#" id="esqueci_senha">Esqueci a senha</a>
+                </div>
+                <div class="link_2">
+                    <!-- Atualização aqui: adicionado o id "cadastre-se" -->
+                    <a href="#" id="cadastro">Cadastre-se</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Script que deve carregar o conteúdo de cadastro no 'main-content' -->
+    <script src="/template_login/javascript/login_and_reset.js"></script>
+</body>
+</html>
